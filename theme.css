@@ -95,11 +95,6 @@ html {
   padding: none;
 }
 
-.layout-desktop form.trackSelections,
-.layout-desktop .itemName.originalTitle {
-  display: none;
-}
-
 .layout-desktop .itemName,
 .layout-mobile .itemName {
   font-weight: normal;
