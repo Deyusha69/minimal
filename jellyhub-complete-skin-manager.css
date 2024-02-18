@@ -1,0 +1,11 @@
+/* 
+This is the file used to import the theme with the plugin Skin Manager
+Author: Krafting
+Last update: 1 May 2023
+*/
+
+@import url(https://krafting.gitlab.io/jellyhub-theme/jellyhub.css);
+
+.pageTitleWithDefaultLogo {
+    background-image: url(https://krafting.gitlab.io/jellyhub-theme/images/logo-jh.png);
+}
