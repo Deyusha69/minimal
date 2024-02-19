@@ -1,0 +1,386 @@
+/* Remove Details Background */
+.layout-desktop .itemBackdrop::after,
+.layout-tv .itemBackdrop::after,
+.detailRibbon {
+    background: rgb(0 0 0 / 0%);
+}
+@media (min-width: 62.5em){ .itemBackdrop {background: #ffffff00 !important;}}
+
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+body, h1, h2, h3, h4 {
+font-family: 'Manrope', sans-serif;
+}
+
+/* Top menu transparency */
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color:rgba(0, 0, 0, 0);}
+
+/* Shrink and square (or round) cast thumnails */
+#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+#castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+
+/* Correct image aspect ratio behaviour, set border-radius to zero for square tiles */
+#castContent button.cardImageContainer.coveredImage.cardContent.cardContent-shadow.itemAction.lazy {background-size: cover; !important; border-radius: 2.5cm;}
+#castContent button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground1.cardContent.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
+#castContent button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground2.cardContent.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
+#castContent button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground3.cardContent.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
+#castContent button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground4.cardContent.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
+#castContent button.cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground5.cardContent.itemAction {background-size: cover; !important; border-radius: 2.5cm;}
+#castContent .cardScalable {width: 3.8cm !important; height: 3.8cm !important; border-radius: 2.5cm;}
+#castContent .cardOverlayContainer.itemAction {border-radius: 2.5cm;}
+#castContent button.cardImageContainer.coveredImage.cardContent.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast {
+    border-radius: 2.5cm;
+}
+#castContent .cardBox:not(.visualCardBox) .cardPadder {
+    background-color: #24242400;
+    box-shadow: 0 0 0em 0 rgb(0 0 0 / 0%);
+}
+}
+
+/* Center the mouseover buttons */
+#castContent .cardOverlayButton-br {bottom: 4%; right: 15%; width: 70%;}
+#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {margin:auto;}
+
+/* Size episode preview images in a more compact way */
+.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
+.listItem-content {height: 115px;}
+.secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+
+/* Rounded Cards */
+.cardContent-button,
+.itemDetailImage, .cardOverlayContainer, .cardContent {
+  border-radius: 0.35em;
+}
+
+.cardPadder, .actionSheet  {
+  border-radius: 0.35em !important;
+}
+canvas.blurhash-canvas.lazy-blurhash-fadein-fast {
+    border-radius: 0.35em;
+}
+
+
+/* Make watched icon dark and transparent */
+.playedIndicator {background: #00000058;}
+.indicator {background: #00000058;}
+
+/* Custom background color */
+/* .backgroundContainer {background-color: #000; filter: brightness(0%);} */
+/* Background Gradient */
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.backgroundContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 1%, rgb(4 4 4 / 90%) 30%, rgb(51 51 51 / 85%) 100%);
+}
+
+/* Narrow the login form */
+#loginPage .readOnlyContent, #loginPage form {max-width: 22em;}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {display: none}
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 50px}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
+
+/* Remove Media Images */
+.section0 .cardScalable {
+    display: none;
+}
+
+/* Smaller Cards */
+@media (min-width: 156.25em)
+.overflowBackdropCard, .overflowSmallBackdropCard {
+    width: 13.6vw !important;
+} 
+@media (min-width: 131.25em)
+.overflowSquareCard, .overflowPortraitCard {
+    width: 9.35vw !important;
+}
+
+/* remove My Media title */
+.section0 .sectionTitle {
+    display: none;
+}
+/* My Media Styling */
+
+.section0 .itemsContainer {
+    align-items: center;
+    justify-content: center;
+}
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+    background: #303030;
+border-radius: 0.2em;
+}
+
+.section0 .overflowBackdropCard,
+    .section0 .overflowSmallBackdropCard {
+        max-width: 9vw;
+    }
+
+.section0 .emby-scroller {
+    margin-right: 0;
+  }
+  .section0 .emby-scrollbuttons {
+    display: none;
+  }
+  .section0 .itemsContainer {
+    flex-wrap: wrap;
+  }
+
+@media (max-width: 75em) and (orientation: landscape){
+.section0 {
+    display: none;
+} }
+
+@media (max-width: 75em){
+.section0 {
+    display: none;
+}    }
+
+/* Progress bar color */
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+    background-color: #e8e8e8;
+}
+
+.mdl-slider-background-lower, .mdl-slider::-webkit-slider-thumb {
+    background-color: #e8e8e8;
+}
+
+/* Remove logo */
+.pageTitleWithDefaultLogo {
+display: none
+}
+
+/* Blur Background */
+.backdropImage.displayingBackdropImage.backdropImageFadeIn {
+    filter: blur(4px) grayscale(80%);
+    -webkit-filter: blur(4px) grayscale(80%);
+}
+
+.backdropContainer {
+    background: url(https://miro.medium.com/max/6000/1*_Fd4Cqze6ngNbqmMQ2htOQ.jpeg) no-repeat center center fixed;
+background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(4px) grayscale(80%);
+    -webkit-filter: blur(4px) grayscale(80%);
+}
+
+.backdropContainer.withBackdrop {
+    filter: blur(4px) grayscale(80%);
+    -webkit-filter: blur(4px) grayscale(80%);
+}
+
+/* Guide */
+.guideVerticalScroller.flex.flex-grow.programContainer.guideScroller.emby-scroller.scrollY, .collapseContent, .formDialogFooter:not(.formDialogFooter-clear), .formDialogHeader:not(.formDialogHeader-clear), .paperList, .visualCardBox  {
+    background-color: #191919b8;
+}
+
+h3.guideChannelNumber {
+    display: none;
+}
+
+.channelsContainer { max-width: 8em; }
+
+.guideChannelImage {
+    position: absolute;
+    right: 0%;
+left: 0%;
+transform: translate(70%, 0%);}
+.guideChannelName {
+    max-width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.guideVerticalScroller {
+     padding-bottom: 0;
+}
+.guide-channelTimeslotHeader {
+    max-width: 8em;
+}
+.guide-headerTimeslots {
+    margin-left: 3.3%;
+    margin-right: 3.3%;
+}
+
+/* */
+.listItem-border {
+    border-color: rgb(113 113 113 / 90%) !important;
+}
+
+/* Hide Home order edit */
+.homeScreenSettingsContainer form div:nth-child(1) > *:nth-child(4), .homeScreenSettingsContainer form div:nth-child(1) > *:nth-child(7) {
+    display: none
+}
+
+/* Submit Button */
+.button-submit {
+    background: #707070;
+    color: #fff;
+}
+
+/* Checkbox */
+.emby-checkbox:checked + span + .checkboxOutline {
+    border-color: #727272;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline, .itemProgressBarForeground {
+    background-color: #3a3a3a;
+}
+.emby-checkbox + span + .checkboxOutline {
+    border-color: #727272;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline, .emby-checkbox:focus:not(:checked) + span + .checkboxOutline {
+    border-color: #727272;
+}
+
+/* navbar */
+ .headerRight:not(:hover)  {
+  opacity: 0;
+}
+
+headerTop:hover .headerRight{
+  display: block;
+}
+
+/* card size */
+@media (min-width: 131.25em) {
+.overflowSquareCard, .overflowPortraitCard {
+    width: 9.35vw !important;
+}}
+
+.section3 .cardPadder-backdrop, .section3 .cardPadder-mixedBackdrop, .section3 .cardPadder-smallBackdrop, .section3 .cardPadder-overflowBackdrop, .section3 .cardPadder-overflowSmallBackdrop {
+    padding-bottom: 76%;
+}
+
+.section3 .overflowBackdropCard {
+    width: 40vw;
+}
+
+@media (min-width: 35em) {
+    .section3 .overflowBackdropCard {
+        width: 31.2vw;
+    }
+}
+@media (min-width: 43.75em) {
+    .section3 .overflowBackdropCard,
+    .section3 .overflowSmallBackdropCard {
+        width: 23.2vw;
+    }
+}
+
+@media (orientation: landscape) {
+    .section3 .overflowBackdropCard,
+    .section3 .overflowSmallBackdropCard {
+        width: 23.2vw;
+    }
+}
+
+@media (orientation: landscape) and (min-width: 50em) {
+    .section3 .overflowBackdropCard,
+    .section3 .overflowSmallBackdropCard {
+        width: 18.6vw;
+    }
+}
+
+@media (min-width: 75em) {
+    .section3 .overflowBackdropCard,
+    .section3 .overflowSmallBackdropCard {
+        width: 15.53vw;
+    }
+}
+
+@media (min-width: 100em){
+.section3 .overflowBackdropCard, .section3 .overflowSmallBackdropCard {
+    width: 11.685vw;
+}
+}
+
+/* progressbar item */
+.itemProgressBarForeground {
+    background-color: #fbfbfb;
+}
+
+.itemProgressBar {
+    height: 0.35em;
+}
+
+/* no scrollbar */
+@media all and (min-width:100em) {
+  .layout-desktop .homePage .section3 .emby-scroller {
+    margin-right: 0;
+  }
+  .layout-desktop .homePage .section3 .emby-scrollbuttons {
+    display: none;
+  }
+  .layout-desktop .homePage .section3 .itemsContainer {
+    flex-wrap: wrap;
+  }
+}
+
+/* Header at home always at top */
+.noHomeButtonHeader .headerTabs {
+    align-self: center;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4.2em;
+    position: relative;
+}
+
+/* more cards for ultrawide */
+
+.squareCard, .portraitCard {
+    min-width: 11.111111111111111111111111111111%;
+}
+
+@media (min-width: 170.25em) {
+    .backdropCard {
+        width: 14.2%;
+    }
+}
+
+@media (min-width: 190.25em) {
+    .backdropCard {
+        width: 12.2%;
+    }
+}
+
+@media (min-width: 200em) {
+    .backdropCard {
+        width: 11.111111111111111111111111111111%;
+    }
+}
+
+/* Hide Background Details */
+.detailSticky, .noBackdrop .detailSticky {
+    background: rgb(32 32 32 / 0%);
+}
+
+/* Move Padding of section1 to section0 */
+div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
+    padding-top: 0;
+}
+
+.section0 .cardBox-bottompadded {
+    margin-bottom: 3em !important;
+}
+
+.homePage.libraryPage:not(.noSecondaryNavPage) {
+    padding-top: 4em !important;
+}
+
+/* better card position with alphapicker */
+@media all and (min-height: 31.25em) {
+    .padded-right-withalphapicker {
+        padding-right: 3.3%;
+    }
+}
