@@ -161,6 +161,7 @@
 ::-webkit-scrollbar {
 display: none;
 }
-.mainDrawer {
-    background-color: #3a3a3a !important;
+.mainDrawer,
+.drawer-open {
+    background-color: rgba(16, 16, 16, 0.86);
 }
