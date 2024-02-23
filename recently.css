@@ -1,0 +1,72 @@
+#homeTab > div > div.section6 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added Anime ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none;
+}
+#homeTab > div > div.section6 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added Movies ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none; 
+}
+#homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added Movies Tagalog ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none; 
+}
+#homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added Movies Tagalog Dubbed ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none; 
+}
+#homeTab > div > div.section6 > div:nth-child(5) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(5) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(5) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added TV Shows ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none;
+}
+#homeTab > div > div.section6 > div:nth-child(6) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(6) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(6) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added TV Shows Tagalog ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none;
+}
+#homeTab > div > div.section6 > div:nth-child(7) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(7) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(7) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added TV Shows Tagalog Dubbed ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none;
+}
+#homeTab > div > div.section6 > div:nth-child(8) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(8) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(8) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added VIVAMAX ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none;
+}
