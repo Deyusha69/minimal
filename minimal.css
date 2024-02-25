@@ -379,3 +379,17 @@ div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
         padding-right: 3.3%;
     }
 }
+.emby-button-foreground{display:none;}
+.libraryPage {
+    padding-top: 8.5em !important;
+}
+.emby-tab-button {
+  padding-top: 2.5em;
+}
+.layout-mobile
+.section0 .itemsContainer {
+  display:none;
+}
+.lnkPlaybackPreferences{
+   display:none!important;
+}
