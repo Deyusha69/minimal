@@ -242,11 +242,6 @@ transform: translate(70%, 0%);}
     border-color: #727272;
 }
 
-/* navbar */
- .headerRight:not(:hover)  {
-  opacity: 0;
-}
-
 headerTop:hover .headerRight{
   display: block;
 }
