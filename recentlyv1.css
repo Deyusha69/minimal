@@ -79,3 +79,12 @@ font-weight: normal;
 cursor: default;
 pointer-events: none;
 }
+#homeTab > div > div.section6 > div:nth-child(10) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(10) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(10) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added Concert ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none;
+}
