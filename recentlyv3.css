@@ -82,7 +82,7 @@ pointer-events: none;
 #homeTab > div > div.section6 > div:nth-child(10) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
 #homeTab > div > div.section6 > div:nth-child(10) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
 #homeTab > div > div.section6 > div:nth-child(10) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
-  content: 'Recently Added Concert ›';
+  content: 'Recently Added Kids ›';
 font-size: 20px;
 font-weight: normal;
 cursor: default;
