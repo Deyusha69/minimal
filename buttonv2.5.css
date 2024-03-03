@@ -197,7 +197,10 @@ button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light
 }
 .emby-button-foreground{display:none;}
 .libraryPage {
-    padding-top: 8.5em !important;
+    padding-top: 7em !important
+}
+.libraryPage:not(.noSecondaryNavPage) {
+    padding-top: 2em !important
 }
 .emby-tab-button {
   padding-top: 2.5em;
