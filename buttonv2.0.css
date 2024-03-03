@@ -195,3 +195,27 @@ button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light
 .headerSearchButton {
   flex-direction: row;
 }
+.emby-button-foreground{display:none;}
+.libraryPage {
+    padding-top: 8.5em !important;
+}
+.emby-tab-button {
+  padding-top: 2.5em;
+}
+.section0 .itemsContainer {
+  display:none;
+}
+.lnkPlaybackPreferences{
+   display:none!important;
+}
+/* remove My Media title */
+.section0 .sectionTitle {
+    display: none;
+}
+/* Remove logo */
+.pageTitleWithDefaultLogo {
+display: none
+}
+/*Item Page - Remove next up in TV shows*/
+div.nextUpSection {display: none !important;}
+.itemTags {display:none !important};
