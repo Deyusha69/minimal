@@ -90,56 +90,6 @@
   display: block !important;
 }
 }
-/*----------------------------------------------Center the play and pause rewind and fast forward button (DESKTOP)*/
-.layout-desktop
-.btnPause {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-   padding: 10px;
-}
-.layout-desktop
-.material-icons.pause:before {
-    font-size: 2.1em;
-}
-.layout-desktop
-.xlargePaperIconButton.material-icons.play_arrow:before {
-    font-size: 3.5em;
-}
-.layout-desktop
-.btnRewind {
-    position: fixed;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    padding: 10px;
-}
-.layout-desktop
-.btnFastForward {
-    position: fixed;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    padding: 10px;
-}
-.layout-desktop
-.xlargePaperIconButton.material-icons.fast_forward {
-    font-size: 3.5em;
-}
-.layout-desktop
-.xlargePaperIconButton.material-icons.fast_rewind {
-    font-size: 3.5em;
-}
-.layout-desktop
-@media (max-width: 50em) {
-.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
-  display: block !important;
-}
-}
 .headerSyncButton {display: none;}
 .material-icons.person {display: none;}
 .btnUserRating{display:none;} button[is="emby-ratingbutton"]{display:none;} .noHomeButtonHeader button[data-index="1"]{display:none;} button[data-index="3"]{display:none;}
