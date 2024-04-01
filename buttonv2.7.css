@@ -145,7 +145,6 @@ button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light
 .headerSearchButton {
   flex-direction: row;
 }
-.emby-button-foreground{display:none;}
 .libraryPage {
     padding-top: 7em !important
 }
