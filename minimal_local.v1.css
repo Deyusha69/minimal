@@ -1,0 +1,18 @@
+@import url('https://cdn.jsdelivr.net/gh/Deyusha69/minimal@main/minimalv3.css');
+@import url('https://cdn.jsdelivr.net/gh/Deyusha69/minimal@main/buttonv2.7.css');
+.updatePasswordForm {
+  display: none;
+}
+.layout-desktop .manualLoginForm {
+  display: none;
+}
+.lnkHomePreferences{
+   display:none!important;
+}
+.layout-desktop
+body{
+ zoom:0.8
+}
+.layout-desktop .osdControls{
+ max-width: 250vh;
+}
