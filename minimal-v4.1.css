@@ -535,3 +535,6 @@ button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light
 .headerSearchButton {
   flex-direction: row;
 }
+/*Item Page - Remove next up in TV shows*/
+div.nextUpSection {display: none !important;}
+.itemTags {display:none !important};
