@@ -4200,12 +4200,3 @@ button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light
 .videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
   display: block !important;
 }
-.noHomeButtonHeader button[data-index="0"]{display:none;}
-.withSectionTabs .headerTop {
-  padding-bottom: 1.3em;
-}
-.headerSearchButton::after {
-  content : attr(title);
-  font-weight: bold;
-  margin-right: -20%!important;*/
-}
