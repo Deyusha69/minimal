@@ -2285,7 +2285,7 @@ margin-right: 0px;
 
 
 
-.btnPreviousChapter, .btnNextChapter, .btnRewind, .btnFastForward, .btnPreviousTrack {
+.btnPreviousChapter, .btnNextChapter {
 
   display: none;
 
@@ -4116,9 +4116,87 @@ color: rgba(var(--accent),.7) !important;
 opacity: 1;
 
 }
-body{
- zoom:0.8
+.lnkPlaybackPreferences{
+   display:none!important;
 }
-.layout-desktop .osdControls{
- max-width: 250vh;
+.headerSyncButton {display: none;}
+.material-icons.person {display: none;}
+.btnUserRating{display:none;} button[is="emby-ratingbutton"]{display:none;} .noHomeButtonHeader button[data-index="1"]{display:none;} button[data-index="3"]{display:none;}
+.btnQuick {
+    display:none!important;
+}
+.lnkQuickConnectPreferences{
+   display:none!important;
+ }
+ .lnkMyProfile{
+    display:none!important;
+ }
+ .lnkControlsPreferences{
+     display:none!important;
+ }
+::-webkit-scrollbar {
+display: none;
+}
+.headerCastButton{
+   display:none!important;
+}
+/*-----------------------------------------------Removes 3 Dots from cards-------------------------------*/
+div.cardOverlayButton-br.flex {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes 3 Dots from cards Mobile------------------------*/
+button.listItemButton.itemAction.paper-icon-button-light {display: none;}
+/*-----------------------------------------------Remove Play Button From Card----------------------------*/
+.cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light.cardOverlayFab-primary {display: none;}
+/*-----------------------------------------------Hide Play Button on Mobile------------------------------*/
+button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------Center the play and pause rewind and fast forward button (MOBILE)*/
+.layout-mobile
+.btnPause {
+    position: fixed;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+       padding: 10px;
+}
+.layout-mobile
+.material-icons.pause:before {
+    font-size: 2.1em;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.play_arrow:before {
+    font-size: 3.5em;
+}
+.layout-mobile
+.btnRewind {
+    position: fixed;
+    top: 49%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+       padding: 10px;
+}
+.layout-mobile
+.btnFastForward {
+    position: fixed;
+    top: 49%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+       padding: 10px;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.fast_forward {
+    font-size: 3.5em;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.fast_rewind {
+    font-size: 3.5em;
+}
+.layout-mobile
+@media (max-width: 50em) {
+.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
+  display: block !important;
 }
