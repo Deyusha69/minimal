@@ -4209,9 +4209,3 @@ button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light
   font-weight: bold;
   margin-right: -20%!important;*/
 }
-body{
-  zoom:0.8
-}
-.layout-desktop .osdControls{
- max-width: 250vh;
-}
