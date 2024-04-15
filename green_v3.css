@@ -4200,12 +4200,6 @@ button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light
 .videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
   display: block !important;
 }
-body{
- zoom:0.8
-}
-.layout-desktop .osdControls{
- max-width: 250vh;
-}
 .noHomeButtonHeader button[data-index="0"]{display:none;}
 .withSectionTabs .headerTop {
   padding-bottom: 1.3em;
@@ -4214,4 +4208,10 @@ body{
   content : attr(title);
   font-weight: bold;
   margin-right: -20%!important;*/
+}
+body{
+  zoom:0.8
+}
+.layout-desktop .osdControls{
+ max-width: 250vh;
 }
