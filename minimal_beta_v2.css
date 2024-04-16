@@ -4,11 +4,11 @@
 .detailRibbon {
     background: rgb(0 0 0 / 0%);
 }
-@media (min-width: 62.5em){ .itemBackdrop {background: #ffffff00 !important;}}
 
 /* JF Font */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {
-  font-family: 'Quicksand', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body, h1, h2, h3, h4 {
+font-family: 'Quicksand', sans-serif;
 }
 
 /* Top menu transparency */
