@@ -547,18 +547,3 @@ body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blur
 body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred > div.headerTabs.sectionTabs > div > div > button:nth-child(3) {display: none !important}
 /*Adjust both "size-adjust" and "size" to modify size*/
 .headerTabs.sectionTabs {text-size-adjust: 100%;  font-size: 100%;}
-*Tweak series/movie/album title screen*/
-.detailLogo {display: none;}
-.detailPagePrimaryContainer {background: rgba(0,0,0,0) !important;}
-@media all and (min-width: 100em){
-    .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
-    .itemBackdrop {height: 23vh !important; background-image: none !important;}
-}
-@media all and (min-width: 32em) and (max-width: 100em){
-    .itemBackdrop::after {background-color: rgba(0, 0, 0, 0) !important;}
-    .itemBackdrop {height: 10em !important; background-image: none !important;}
-}
-@media all and (max-width: 32em) {
-    .itemBackdrop {width: 100vw !important; height: 100vh !important; position: fixed; filter: brightness(14%);}
-    .detailPageWrapperContainer {margin-top: 5em;}
-}
