@@ -152,11 +152,6 @@ border-radius: 0.2em;
     background-color: #e8e8e8;
 }
 
-/* Remove logo */
-.pageTitleWithDefaultLogo {
-display: none
-}
-
 /* Blur Background */
 .backdropImage.displayingBackdropImage.backdropImageFadeIn {
     filter: blur(4px) grayscale(80%);
