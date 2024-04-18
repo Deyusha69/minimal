@@ -88,11 +88,6 @@ canvas.blurhash-canvas.lazy-blurhash-fadein-fast {
 #loginPage .raised.cancel.block.btnManual.emby-button {display: none}
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
 
-/* Remove Media Images */
-.section0 .cardScalable {
-    display: none;
-}
-
 /* Smaller Cards */
 @media (min-width: 156.25em)
 .overflowBackdropCard, .overflowSmallBackdropCard {
