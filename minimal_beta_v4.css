@@ -4,11 +4,12 @@
 .detailRibbon {
     background: rgb(0 0 0 / 0%);
 }
+@media (min-width: 62.5em){ .itemBackdrop {background: #ffffff00 !important;}}
 
-/* JF Font */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
 body, h1, h2, h3, h4 {
-font-family: 'Quicksand', sans-serif;
+font-family: 'Manrope', sans-serif;
 }
 
 /* Top menu transparency */
@@ -150,6 +151,11 @@ border-radius: 0.2em;
 
 .mdl-slider-background-lower, .mdl-slider::-webkit-slider-thumb {
     background-color: #e8e8e8;
+}
+
+/* Remove logo */
+.pageTitleWithDefaultLogo {
+display: none
 }
 
 /* Blur Background */
@@ -378,9 +384,6 @@ div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
 }
 .emby-tab-button {
   padding-top: 2.5em;
-}
-.section0 .itemsContainer {
-  display:none;
 }
 .lnkPlaybackPreferences{
    display:none!important;
