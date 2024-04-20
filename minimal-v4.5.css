@@ -542,8 +542,5 @@ div.nextUpSection {display: none !important;}
 
 body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred > div.headerTabs.sectionTabs > div > div > button:nth-child(5) {display: none !important}
 
-/*hide upcoming in tv shows and trailers in movies*/
-
-body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred > div.headerTabs.sectionTabs > div > div > button:nth-child(3) {display: none !important}
 /*Adjust both "size-adjust" and "size" to modify size*/
 .headerTabs.sectionTabs {text-size-adjust: 100%;  font-size: 100%;}
