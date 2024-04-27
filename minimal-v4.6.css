@@ -498,9 +498,6 @@ div:not(.sectionTitleContainer-cards) > .sectionTitle-cards {
  .lnkControlsPreferences{
      display:none!important;
  }
-::-webkit-scrollbar {
-display: none;
-}
 .mainDrawer,
 .drawer-open {
     background-color: rgba(16, 16, 16, 0.86);
