@@ -2062,12 +2062,6 @@ div.cardOverlayButton-br.flex {display: none;}
 
 /*-----------------------------------------------Removes 3 Dots from cards Mobile------------------------*/
 button.listItemButton.itemAction.paper-icon-button-light {display: none;}
-/*-----------------------------------------------Remove Play Button From Card----------------------------*/
-.cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light.cardOverlayFab-primary {display: none;}
-/*-----------------------------------------------Hide Play Button on Mobile------------------------------*/
-button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light {display: none;}
-/*-------------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------Center the play and pause rewind and fast forward button (MOBILE)*/
 .layout-mobile
 .btnPause {
     position: fixed;
