@@ -2135,3 +2135,7 @@ button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light
 .headerCastButton{
    display:none!important;
 }
+/* Remove logo */
+.pageTitleWithDefaultLogo {
+display: none
+}
